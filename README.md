@@ -37,8 +37,7 @@ Esta aplicação é simples, mas poderosa: registre-se, faça login e compartilh
 
 1. **Clone o projeto**:
    ```bash
-   git clone <URL-do-repo>
-   cd <nome-do-repo>
+   git clone git@github.com:Joao-VictorCm/Registering-Users-with-Email-and-Password.git
 
 2. **Instale as dependências necessárias:**
 
