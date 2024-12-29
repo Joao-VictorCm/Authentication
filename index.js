@@ -73,7 +73,9 @@ app.post("/login", async (req, res) => {
     [email]
   )
 
+try{
   if(result.rows.length> 0){
+    console.log(result.rows)
     const user = result.rows[0]
     const storedPassword = user.password
 
@@ -85,6 +87,9 @@ app.post("/login", async (req, res) => {
   }else{
     res.send("User not found")
   }
+}catch(err){
+  console.log(err)
+}
  
 });
 
